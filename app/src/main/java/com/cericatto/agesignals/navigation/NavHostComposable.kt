@@ -9,8 +9,8 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.cericatto.agesignals.ui.age_gate_screen.BlockedScreen
-import com.cericatto.agesignals.ui.age_gate_screen.CheckAgeScreenRoot
+import com.cericatto.agesignals.ui.screens.BlockedScreen
+import com.cericatto.agesignals.ui.screens.CheckAgeScreenRoot
 
 @Composable
 fun NavHostComposable(

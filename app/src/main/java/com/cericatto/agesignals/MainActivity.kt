@@ -1,14 +1,12 @@
 package com.cericatto.agesignals
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
-import com.cericatto.agesignals.data.repository.DebugAgeSignalsRepository
 import com.cericatto.agesignals.domain.repository.AgeSignalsRepository
 import com.cericatto.agesignals.navigation.NavHostComposable
-import com.cericatto.agesignals.ui.age_gate_screen.AgeSignalsDebugScreen
+import com.cericatto.agesignals.ui.screens.MyAgeStatusScreenRoot
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -29,6 +27,7 @@ class MainActivity : ComponentActivity() {
 				if (hasOverride) {
 					NavHostComposable()
 				} else {
+					/*
 					AgeSignalsDebugScreen { result ->
 						(repository as? DebugAgeSignalsRepository)
 							?.overrideResult(result)
@@ -39,6 +38,8 @@ class MainActivity : ComponentActivity() {
 						startActivity(intent)
 						finish()
 					}
+					 */
+					MyAgeStatusScreenRoot()
 				}
 			}
 		}

@@ -1,4 +1,4 @@
-package com.cericatto.agesignals.ui.age_gate_screen
+package com.cericatto.agesignals.ui.screens
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Box
@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.cericatto.agesignals.ui.age_gate_screen.AgeGateState
+import com.cericatto.agesignals.ui.age_gate_screen.AgeGateViewModel
 
 @Composable
 fun CheckAgeScreenRoot(

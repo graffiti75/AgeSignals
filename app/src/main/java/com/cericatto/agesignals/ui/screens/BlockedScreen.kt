@@ -1,4 +1,4 @@
-package com.cericatto.agesignals.ui.age_gate_screen
+package com.cericatto.agesignals.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
